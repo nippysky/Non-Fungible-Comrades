@@ -1,0 +1,51 @@
+.mintSection {
+    background-color: black;
+    color: white;
+    padding: 7rem 4rem 4rem 4rem;
+}
+
+.mintRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4rem;
+}
+
+.mintColunm {
+    width: 50%;
+}
+
+.iframeColumn {
+    width: 50%;
+    background-color: white;
+    border-radius: 7px;
+    color: black;
+    padding: 1rem 2rem;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .mintRow {
+        flex-direction: column;
+        text-align: center;
+        column-gap: 0;
+        justify-content: center;
+    }
+
+    .mintSection {
+        padding: 5rem 1rem;
+    }
+
+    .mintColunm {
+        width: 100%;
+    }
+
+
+    .iframeColumn {
+        width: 85%;
+        margin-top: 2rem;
+        align-self: center;
+    }
+
+
+}

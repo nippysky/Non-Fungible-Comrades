@@ -1,0 +1,72 @@
+.sectionHowTo {
+    background-color: black;
+    color: white;
+    padding: 7rem 4rem;
+}
+
+.divHowTo {
+    text-align: center;
+    padding: 0 7rem;
+}
+
+.innerSection {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.innerRow {
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 3rem auto;
+    column-gap: 7rem;
+    justify-content: center;
+}
+
+.innerColumn {
+    width: 40%;
+    background-color: #171717;
+    border-radius: 5px;
+    color: #ED2B4B;
+    margin: 0;
+    padding: 0.65rem 0;
+    transition: transform .2s;
+}
+
+.innerColumn:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: #ED2B4B;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sectionHowTo {
+        padding: 0 1rem;
+    }
+
+    .divHowTo {
+        padding: 0;
+        text-align: center;
+    }
+
+    .innerRow {
+        flex-direction: column;
+    }
+
+    .innerColumn {
+        width: 100%;
+        margin-top: 2rem;
+        transition: none;
+    }
+
+    .innerColumn:hover {
+        transform: none;
+    }
+}

@@ -1,0 +1,45 @@
+.headerRow {
+    width: 100%;
+    display: flex;
+    margin: -5rem 0 0 0;
+}
+
+.headerColumn {
+    width: 33.3%;
+}
+
+.headerIconsRow {
+    width: 100%;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.headerIcons {
+    width: 33.3%;
+}
+
+.imgAnimate {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .comradeImage {
+        display: none;
+    }
+
+    .headerColumn {
+        width: 100%;
+    }
+}

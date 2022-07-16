@@ -1,0 +1,23 @@
+.teamSection {
+    background-color: black;
+    color: white;
+    padding: 2rem 4rem;
+    text-align: center;
+}
+
+.teamRow {
+    padding: 0 10rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .teamSection {
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+
+    .teamRow {
+        padding: 0;
+    }
+
+}

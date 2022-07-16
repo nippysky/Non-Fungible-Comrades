@@ -1,0 +1,32 @@
+.footSection {
+    background-color: #22B573;
+    color: white;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footColumn {
+    width: 18.75%;
+}
+
+.footColumn:hover {
+    text-decoration: underline;
+}
+
+.footColumn1 {
+    width: 25%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footSection {
+        padding: 4rem 1rem;
+        flex-direction: column;
+    }
+
+    .footColumn,
+    .footColumn1 {
+        width: 100%;
+        margin: 2rem 0;
+    }
+}

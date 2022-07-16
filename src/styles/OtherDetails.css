@@ -1,0 +1,32 @@
+.otherSection {
+    background-color: black;
+    color: white;
+    padding: 4rem;
+}
+
+.otherRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 7rem;
+}
+
+.otherColumn {
+    width: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .otherSection {
+        padding: 4rem 1rem;
+        text-align: center;
+    }
+
+    .otherRow {
+        flex-direction: column;
+    }
+
+    .otherColumn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}

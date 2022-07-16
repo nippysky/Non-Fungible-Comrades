@@ -1,0 +1,62 @@
+.section {
+    background-color: black;
+    color: white;
+    padding: 0 4rem;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 7rem;
+}
+
+.column {
+    width: 50%;
+}
+
+.imgDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.img {
+    width: 33.33%;
+    animation: rotating 10s linear infinite;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(.8);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .section {
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .imgDiv {
+        display: none;
+    }
+}

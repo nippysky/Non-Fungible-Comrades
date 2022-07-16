@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+hr {
+  margin-top: -3.2rem;
+  border: 1px solid #22B573;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  color: #ED2B4B;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.85;
+}
+
+button {
+  background-color: #22B573;
+  border-radius: 7px;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 550;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ED2B4B;
+}
+
+@media only screen and (max-width: 1200px) {
+  hr {
+    display: none;
+  }
+}
