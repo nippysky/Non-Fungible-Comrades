@@ -15,10 +15,10 @@ function App() {
       <section className="section">
         <div className="logoDiv">
           <img
-            src="/images/nfcomrades-logo.svg"
+            src="/images/nfcomrades-logo.webp"
             alt="Non-Fungible Comrades Logo"
             width={350}
-            height={350}
+            height={150}
           />
         </div>
         <HeadDiv />
