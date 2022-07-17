@@ -15,7 +15,7 @@ function App() {
       <section className="section">
         <div className="logoDiv">
           <img
-            src="/images/NFComrades-Logo.svg"
+            src="/images/nfcomrades-logo.svg"
             alt="Non-Fungible Comrades Logo"
             width={350}
             height={350}
