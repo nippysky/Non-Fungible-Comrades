@@ -70,7 +70,7 @@ export default function Footer() {
             />
           </span>
         </a>
-        <a href="https://www.youtube.com/channel/UCF7-gSEIPIFrGEON4MMyatQ">
+        <a href="https://www.youtube.com/c/Panthart">
           <span style={{ padding: "0 1.2rem 0 0" }}>
             <img
               src="/icons/FootYoutube.svg"

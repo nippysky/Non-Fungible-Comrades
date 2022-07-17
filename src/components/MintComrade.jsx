@@ -21,8 +21,11 @@ export default function MintComrade() {
           </p>
         </div>
         <div className="iframeColumn">
-          <p>Comrade Be Calm, This frame will be updated soon. </p>
-          <h2>Mint Date is: July, 30th, 2022.</h2>
+          <p>
+            Comrade Be Calm, This frame will be updated soon, so that you would
+            be able to mint. Just mark the date.{" "}
+          </p>
+          <h2>Mint Date starts on: July, 30th, 2022.</h2>
         </div>
       </div>
     </section>

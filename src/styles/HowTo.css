@@ -68,5 +68,6 @@ a {
 
     .innerColumn:hover {
         transform: none;
+        text-decoration: underline;
     }
 }

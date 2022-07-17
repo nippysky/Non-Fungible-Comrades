@@ -4,7 +4,7 @@ export default function Benefits() {
   return (
     <section className="benefitsSection">
       <div style={{ textAlign: "center", marginTop: "5rem" }}>
-        <h2>12 Benefits Of Being A Comrade.</h2>
+        <h2>13 Benefits Of Being A Comrade.</h2>
       </div>
       <section className="benefitsRow">
         <div className="benefitsColumn">
