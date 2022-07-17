@@ -9,12 +9,16 @@ export default function Benefits() {
       <section className="benefitsRow">
         <div className="benefitsColumn">
           <div className="innerBenefitsColumn">
-            <h3>Airdrops</h3>
+            <h3>Owner Of A Unique Artwork</h3>
             <p className="benefitsText">
-              Moving forward, airdrops would be exclusive from time to time for
-              Comrades.
+              The creation process of NFC spanning to a period of over 3 months,
+              to be able to deliver different traits as never seen before in an
+              NFT project. We included African attires, and darker skin
+              complexions, so that African's would relate. You simply become the
+              owner of something unique and special.
             </p>
           </div>
+
           <div className="innerBenefitsColumn">
             <h3>Exclusive Discount</h3>
             <p className="benefitsText">
@@ -44,6 +48,14 @@ export default function Benefits() {
         </div>
 
         <div className="benefitsColumn">
+          <div className="innerBenefitsColumn">
+            <h3>Airdrops & Privacy</h3>
+            <p className="benefitsText">
+              Moving forward, airdrops would be exclusive from time to time for
+              Comrades. All activities for Comrades will be accessible through
+              our private channel, in Panthart's Discord server.
+            </p>
+          </div>
           <div className="innerBenefitsColumn">
             <h3>Rewards</h3>
             <p className="benefitsText">

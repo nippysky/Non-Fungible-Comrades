@@ -21,7 +21,8 @@ export default function MintComrade() {
           </p>
         </div>
         <div className="iframeColumn">
-          <h2>Put Iframe here</h2>
+          <p>Comrade Be Calm, This frame will be updated soon. </p>
+          <h2>Mint Date is: July, 30th, 2022.</h2>
         </div>
       </div>
     </section>
