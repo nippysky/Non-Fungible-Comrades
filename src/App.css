@@ -9,3 +9,9 @@
     text-align: center;
     margin: 5rem 0 4rem 0;
 }
+
+@media only screen and (max-width: 1200px) {
+    .logoDiv {
+        margin: 8rem 4rem;
+    }
+}
