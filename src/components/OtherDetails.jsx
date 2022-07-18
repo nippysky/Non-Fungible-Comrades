@@ -18,9 +18,10 @@ export default function OtherDetails() {
           <h2>We Also Think About The Future.</h2>
           <p>
             Web 3 is still in its infant stage and there is more stuff to do in
-            the space. We are open to new ideas a Comrades. We will also invest
+            the space. We are open to new ideas as Comrades. We will also invest
             in the metervase by securing our own land from either Sandbox,
-            Otherside, or the likes.
+            Otherside, or the likes. More deatils will be passed on through our
+            seocial media.
           </p>
         </div>
       </div>
