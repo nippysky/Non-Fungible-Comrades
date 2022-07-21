@@ -13,7 +13,7 @@
 @media only screen and (max-width: 1200px) {
     .teamSection {
         padding: 3rem 2rem;
-        text-align: center;
+        text-align: justify;
     }
 
     .teamRow {

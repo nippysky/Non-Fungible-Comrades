@@ -3,7 +3,11 @@ export default function HeadSocialIcons() {
     <div>
       <div className="headerIconsRow">
         <div className="headerIcons">
-          <a href="https://discord.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://discord.gg/uuvbs9DJ7H"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src="/icons/Discord.svg"
               alt="Discord"

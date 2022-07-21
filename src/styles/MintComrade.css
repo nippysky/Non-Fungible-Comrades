@@ -2,50 +2,61 @@
     background-color: black;
     color: white;
     padding: 7rem 4rem 4rem 4rem;
+    text-align: justify;
 }
 
 .mintRow {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    column-gap: 4rem;
+    column-gap: 5rem;
 }
 
-.mintColunm {
+.mintColumn {
     width: 50%;
 }
 
-.iframeColumn {
-    width: 50%;
-    background-color: white;
+.countDownTimerRow {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5rem;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    border: 1px solid #22B573;
     border-radius: 7px;
-    color: black;
-    padding: 1rem 2rem;
+    padding: 2rem 4rem;
+}
 
+.countDownTimerColumn {
+    width: 25%;
 }
 
 @media only screen and (max-width: 1200px) {
-    .mintRow {
-        flex-direction: column;
-        text-align: center;
-        column-gap: 0;
-        justify-content: center;
-    }
 
     .mintSection {
         padding: 10rem 2rem;
     }
 
-    .mintColunm {
+    .mintRow {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .mintColumn {
         width: 100%;
-    }
-
-
-    .iframeColumn {
-        width: 85%;
         margin-top: 2rem;
-        align-self: center;
     }
 
+    .countDownTimerRow {
+        display: inline-block;
+        max-width: 100%;
+        text-align: center;
+    }
 
+    .countDownTimerColumn {
+        display: inline-block;
+        padding: 0 2rem;
+    }
 }

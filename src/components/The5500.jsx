@@ -4,54 +4,56 @@ export default function The5500() {
   return (
     <section className="section">
       <div className="row">
-        <div className="column">
+        <div className="column1">
           <h2>A Community Of 5, 500 Comrades.</h2>
           <p>
-            We are a community of 5, 500 unique Comrades. 5, 000 Comrades will
-            be released for public mint / adoption.
+            We are a community of 5, 500 unique Comrades. 5000 of 5500 Comrades
+            will be released for public mint.
           </p>
           <p>
-            The remaining 500 will be released immediately after the public mint
-            and reserved for Angel Investors, Team members, Auctions, and
-            Rewards.
+            The remaining 500 of 5500 will be released after 50% of selling out
+            the 5000 of 500. The 500 of 5500 is for Angel Investors and Team
+            Members. 30 Comrades will be reserved for the Panthart Team while
+            the rest will be auctioned out as Angel Investment to Panthart,
+            starting with a price of 0.385ETH per Senior Comrade.
           </p>
         </div>
-        <div className="column">
+        <div className="column2">
           <a
-            href="https://rarible.com/panthart"
+            href="https://panthart.com/angelinvestors"
             target="_blank"
             rel="noreferrer"
           >
-            <button type="button">Become Our Angel Investor</button>
+            <button type="button">About Our Angel Investor</button>
           </a>
 
           <p style={{ fontSize: "0.9rem", color: "#707070" }}>
-            Buy one of the NFTs on our Rarible page for Angel Investors. Click
-            the button above
+            Click the button above to know more about our Angel Investors and
+            the benefits.
           </p>
           <div className="imgDiv">
             <div className="img">
               <img
                 src="/images/RotateComrade1.svg"
                 alt="Comrade Arab"
-                width={200}
-                height={200}
+                width={150}
+                height={150}
               />
             </div>
             <div className="img">
               <img
                 src="/images/RotateComrade2.svg"
                 alt="Comrade Igbo"
-                width={200}
-                height={200}
+                width={150}
+                height={150}
               />
             </div>
             <div className="img">
               <img
                 src="/images/RotateComrade3.svg"
                 alt="Comrade Dreads"
-                width={200}
-                height={200}
+                width={150}
+                height={150}
               />
             </div>
           </div>

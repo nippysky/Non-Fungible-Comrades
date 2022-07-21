@@ -1,7 +1,7 @@
 .sectionHowTo {
     background-color: black;
     color: white;
-    padding: 7rem 4rem;
+    padding: 5rem 4rem 7rem 4rem;
 }
 
 .divHowTo {
@@ -53,7 +53,7 @@ a {
 
     .divHowTo {
         padding: 0;
-        text-align: center;
+        text-align: justify;
     }
 
     .innerRow {

@@ -11,8 +11,12 @@
     column-gap: 7rem;
 }
 
-.column {
-    width: 50%;
+.column1 {
+    width: 60%;
+}
+
+.column2 {
+    width: 40%;
 }
 
 .imgDiv {
@@ -44,7 +48,7 @@
 @media only screen and (max-width: 1200px) {
     .section {
         padding: 0 2rem;
-        text-align: center;
+        text-align: justify;
     }
 
     .row {
